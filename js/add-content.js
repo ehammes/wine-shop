@@ -6,7 +6,6 @@
 const btn = document.getElementById('btn');
 
 btn.addEventListener('click', function onClick(event) {
-console.log(event.target);
   document.body.style.backgroundColor = 'green';
 });
 
