@@ -2,6 +2,14 @@
 // let age = prompt("What is your age?")
 // let favoriteWine = prompt ("What is your favorite wine?");
 // alert('Hello' + firstName);
+
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', function onClick(event) {
+console.log(event.target);
+  document.body.style.backgroundColor = 'green';
+});
+
 let wine = prompt ('What kind of wine are you looking for?');
 console.log('wine', wine, typeof wine);
 
@@ -23,6 +31,10 @@ if (aNumber == 0) {
 } else {
     alert ('Do not forget to try a free tasting!')
 }
+
+if (window.confirm("Do you need further assistance?")) {
+    window.open('Contact-Us.html', "Thanks for Visiting!");
+  }
 
 
 // CONDITIONALS
