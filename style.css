@@ -20,6 +20,14 @@ main {
     color:cornflowerblue
 }
 
+button {
+    font-size: 15px;
+    background-color: #1e80e2;
+    color: #ffffff;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 1px 1px 1px #000000;
+  }
+
 img {
     border: 5px solid darkblue;
 }

@@ -3,23 +3,25 @@
 // let favoriteWine = prompt ("What is your favorite wine?");
 // alert('Hello' + firstName);
 
-const btn = document.getElementById('btn');
+let customer = prompt('Welcome! What is your name?')
+alert(` Hello ${customer}`);
 
+const btn = document.getElementById('btn');
 btn.addEventListener('click', function onClick(event) {
   document.body.style.backgroundColor = 'green';
-});
+})
 
-let wine = prompt ('What kind of wine are you looking for?');
+let wine = prompt ('What kind of wine are you looking for?\r\Try Pinot Grigio, Cabernet Sauvignon, or something else');
 console.log('wine', wine, typeof wine);
 
 if (wine === 'Pinot Noir') {
-    alert('Great Choice! We have some in stock!')
+     alert('Great Choice! We have some in stock!')
 } else if (wine === 'Pinot Grigio') {
     alert ('We apologize, we are out of stock.')
 } else if (wine === 'Cabernet Sauvignon') {
-    alert('We have a great selection of Cabs!')
+     alert('We have a great selection of Cabs!')
 } else {
-    alert('We have plenty of recommendations we can provide!')
+     alert('We have plenty of recommendations we can provide!')
 }
 
 const aNumber = Number(window.prompt("How many bottles of wine do you want to purchase?"));
@@ -34,7 +36,6 @@ if (aNumber == 0) {
 if (window.confirm("Do you need further assistance?")) {
     window.open('Contact-Us.html', "Thanks for Visiting!");
   }
-
 
 // CONDITIONALS
 // based on something else --> 
