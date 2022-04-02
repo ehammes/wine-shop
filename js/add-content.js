@@ -20,6 +20,7 @@ if (wine === 'Pinot Noir') {
      alert('We have plenty of recommendations we can provide!')
 }
 
+
 const aNumber = Number(window.prompt("How many bottles of wine do you want to purchase?"));
 if (aNumber == 0) {
     alert('Can we provide a recommendation?')
