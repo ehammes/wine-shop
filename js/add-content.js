@@ -5,11 +5,7 @@
 
 let customer = prompt('Welcome! What is your name?')
 alert(` Hello ${customer}`);
-
-const btn = document.getElementById('btn');
-btn.addEventListener('click', function onClick(event) {
-  document.body.style.backgroundColor = 'green';
-})
+document.write('<h4>' + ' Welcome ' + customer + '!' + '</h4>');
 
 let wine = prompt ('What kind of wine are you looking for?\r\Try Pinot Grigio, Cabernet Sauvignon, or something else');
 console.log('wine', wine, typeof wine);
@@ -36,6 +32,11 @@ if (aNumber == 0) {
 if (window.confirm("Do you need further assistance?")) {
     window.open('Contact-Us.html', "Thanks for Visiting!");
   }
+
+const btn = document.getElementById('btn');
+btn.addEventListener('click', function onClick(event) {
+    document.body.style.backgroundColor = 'green';
+  })  
 
 // CONDITIONALS
 // based on something else --> 
