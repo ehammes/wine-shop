@@ -33,10 +33,10 @@ if (window.confirm("Do you need further assistance?")) {
     window.open('Contact-Us', "Thanks for Visiting!");
   }
 
-const btn = document.getElementById('btn');
+  const btn = document.getElementById('btn');
 btn.addEventListener('click', function onClick(event) {
     document.body.style.backgroundColor = 'green';
-})  
+}) 
 
 // CONDITIONALS
 // based on something else --> 

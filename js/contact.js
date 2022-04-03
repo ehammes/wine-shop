@@ -1,5 +1,5 @@
 function winegame () {
-    let userAnswer = prompt ('Guess how many wine bottles we have')
+    let userAnswer = prompt ('Guess how many wine bottles we have\r\ Guess 500')
     let correctAnswer = 500;
     let attempts = 5
 
