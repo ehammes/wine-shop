@@ -20,7 +20,6 @@ if (wine === 'Pinot Noir') {
      alert('We have plenty of recommendations we can provide!')
 }
 
-
 const aNumber = Number(window.prompt("How many bottles of wine do you want to purchase?"));
 if (aNumber == 0) {
     alert('Can we provide a recommendation?')
@@ -37,7 +36,7 @@ if (window.confirm("Do you need further assistance?")) {
 const btn = document.getElementById('btn');
 btn.addEventListener('click', function onClick(event) {
     document.body.style.backgroundColor = 'green';
-  })  
+})  
 
 // CONDITIONALS
 // based on something else --> 
