@@ -1,5 +1,5 @@
 function question (winequestion){
-   if (winequestion) {
+   if (!winequestion) {
        winequestion = "How many wine glasses would you like to see?"
    }
     let wineprompt = prompt(winequestion);
