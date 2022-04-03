@@ -1,16 +1,17 @@
-function winegame () {
-    let userAnswer = prompt ('Guess how many wine bottles we have\r\ Guess 500')
+function winegame(){
+    let userAnswer = prompt('Guess how many wine bottles we have\r\ Guess 500');
     let correctAnswer = 500;
-    let attempts = 5
+    let attempts = 5;
 
-    while (userAnswer < 1 || userAnswer > 100) {
-        userAnswer = prompt ('Please Try Again!')
-}
-    if (userAnswer == 500){
-        alert ('Correct! Use code 10OFF at checkout to receive 10% off!');
-    } else if (userAnswer != 500) {
-        alert ('Sorry, that is incorrect');
-    }
+    for (let i = 0; i < attempts; i++)
+        while (userAnswer < 1 || userAnswer > 100) {
+            userAnswer = prompt('Please Try Again!');
+        }   
+        if (userAnswer == 500){
+            alert ('Correct! Use code 10OFF at checkout to receive 10% off!');
+        } else if (userAnswer != 500) {
+            alert ('Sorry, that is incorrect');
+        }
 }
 
 // let question = prompt ('How many bottles do you want to order?');
