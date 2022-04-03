@@ -30,7 +30,7 @@ if (aNumber == 0) {
 }
 
 if (window.confirm("Do you need further assistance?")) {
-    window.open('Contact-Us.html', "Thanks for Visiting!");
+    window.open('Contact-Us', "Thanks for Visiting!");
   }
 
 const btn = document.getElementById('btn');
