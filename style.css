@@ -32,6 +32,11 @@ img {
     border: 5px solid darkblue;
 }
 
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+  }
+
 footer {
     background: blue;
     text-align: center;

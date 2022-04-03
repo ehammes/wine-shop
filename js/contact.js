@@ -6,6 +6,6 @@ if (question >= 5) {
 } else if (question < 5) {
     alert ('Did you know you can receive 20% off for 5+ bottles?')
 } else {
-     alert('We apologize, please call 888-123-4567')
-     console.log ('Thats too bad')
+    alert('We apologize, please call 888-123-4567')
+    console.log ('Thats too bad')
 }

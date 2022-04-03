@@ -8,7 +8,7 @@ alert(` Hello ${customer}`);
 document.write('<h4>' + ' Welcome ' + customer + '!' + '</h4>');
 
 let wine = prompt ('What kind of wine are you looking for?\r\Try Pinot Grigio, Cabernet Sauvignon, or something else');
-console.log('wine', wine, typeof wine);
+console.log('wine', wine);
 
 if (wine === 'Pinot Noir') {
      alert('Great Choice! We have some in stock!')
