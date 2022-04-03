@@ -1,11 +1,11 @@
 function winegame(){
-    let userAnswer = prompt('Guess how many wine bottles we have\r\Tip: Guess 500');
+    let userAnswer = prompt('Guess how many wine bottles we have!\r\Tip: Guess 500');
     let correctAnswer = 500;
     let attempts = 5;
 
     for (let i = 1; i < attempts; i++){
-        while (userAnswer < 1 || userAnswer > 500){
-            userAnswer = prompt('Please Try Again!');
+        while (userAnswer < 1 || userAnswer > 1000){
+            userAnswer = prompt('Please Try Again, enter a number between 1 and 1000');
         }   
         if (userAnswer == correctAnswer){
             alert('Correct! Use code 10OFF at checkout to receive 10% off!');
@@ -15,19 +15,8 @@ function winegame(){
         } else if (userAnswer < correctAnswer){
             userAnswer = prompt('Sorry, that is too low, please try again!');
         }
-        if(i = 7){
-                alert('The correct answer was ' + correctAnswer);
+        if (i == 4){
+                alert('Sorry, the correct answer is ' + correctAnswer);
         }
     }
-
-// let question = prompt ('How many bottles do you want to order?');
-// console.log('question',);
-
-// if (question >= 5) {
-//     alert('Great! We hope you will enjoy!')
-// } else if (question < 5) {
-//    alert ('Did you know you can receive 20% off for 5+ bottles?')
-// } else {
-//    alert('We apologize, please call 888-123-4567')
-//    console.log ('Thats too bad')
-// }
+}         
