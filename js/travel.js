@@ -12,9 +12,9 @@
 function gototheairport(airport, cab, checkin){
     // Checking to make sure all inputs are here
     if (airport) {
-        console.log ('Where is the airport')
+        console.log ('Where is the airport');
     } else {
-        console.log ('Sorry, you are lost')
+        console.log ('Sorry, you are lost');
     }
 // All your code/logic lives here
 let travel = 'Here is how to arrive to the ' + airport + ' via ' + cab + ' and then ' + checkin;
